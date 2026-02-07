@@ -1,0 +1,28 @@
+.text{
+    list-style: none;
+   
+}
+.text li{
+    font-size: 30px;
+}
+.text li a{
+text-decoration: none;}
+
+.text li :hover{
+color: black; 
+}
+
+.fondo{
+    background-color: gray;
+    color:rgb(69, 67, 67)
+}
+.h1{
+    font: size 58px;px ;
+    color: yellow;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 30px;
+    text-transform: lowercase;
+    color:magenta
+}

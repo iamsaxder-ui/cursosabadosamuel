@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ul{
+    list-style: none;
+}
+.navbar-list{
+    list-style: none;/* esto quita la decoracion de la lista*/
+    padding: 0;/*margen interno detro de un elemento*/
+    margin: 0;/*margen externo hasta el borde de la pagina*/
+    display: flex;
+    flex-direction: row; 
+}
+.navbar-list li{
+    flex: 1;
+    text-align: center;
+}
+.navbar-list li a{
+    display: block;
+    padding: 15px, 20px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-list a:hover {
+    color: red ;
+}
+.img-responsive{
+    width: 100%;
+}
+.col{
+   /*width: 50%*/
+}
+
+.quienessomos{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.padding-left{
+    padding-left: 30px;
+}
